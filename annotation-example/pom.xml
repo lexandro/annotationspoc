@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>annotation-example</artifactId>
-
+    <packaging>jar</packaging>
     <parent>
         <artifactId>annotations-poc</artifactId>
         <groupId>com.lexandro</groupId>
@@ -16,7 +16,7 @@
         <dependency>
             <groupId>com.lexandro</groupId>
             <artifactId>annotation-processor</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>${project.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
